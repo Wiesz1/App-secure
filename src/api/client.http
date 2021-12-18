@@ -1,0 +1,20 @@
+POST https://3001-copper-louse-1h13f8l8.ws-us23.gitpod.io/api/register 
+Content-Type: application/json
+
+{
+    "email": "pwiesz@gmail.com",
+    "password": "1221Abc"
+}
+###
+
+POST https://3001-copper-louse-1h13f8l8.ws-us23.gitpod.io/api/login 
+Content-Type: application/json
+
+{
+    "email": "pwiesz@gmail.com",
+    "password": "1221Abc"
+}
+###
+
+GET https://3001-copper-louse-1h13f8l8.ws-us23.gitpod.io/api/userinfo
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYzOTg0ODI5OSwianRpIjoiNGZkNmM3OWEtNTJkZi00OWJhLWI4ZjYtYTM3NjU3NDcyNGU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MiwibmJmIjoxNjM5ODQ4Mjk5LCJleHAiOjE2Mzk4NDkxOTl9.TIyojAHbb3eMShzo6yoUN0fQwOq3bNLfjUJefrVKV3E
